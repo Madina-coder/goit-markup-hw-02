@@ -31,12 +31,15 @@ a {
   text-decoration: none;
 }
 
-.main-nav a {
+.nav a {
+  font-weight: 500;
   color: #2e2f42;
 }
 
 .contacts a {
   color: #434455;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .hero {
@@ -49,9 +52,34 @@ a {
 .hero h1 {
   font-size: 56px;
   font-weight: 700;
+  text-align: center;
+}
+
+.team {
+  background-color: #f4f4fd;
+}
+
+.hero-h {
+  text-align: center;
+  font-size: 36px;
+}
+
+.box {
+  background-color: #ffffff;
+}
+
+.name {
+  font-size: 24px;
 }
 
 h2,
 h3 {
   color: #2e2f42;
+}
+
+.footer {
+  background-color: #2e2f42;
+  width: 1440px;
+  height: 312px;
+  color: #ffffff;
 }
